@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #343a40;
+    width: 100%;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    background-color: #343a40;
+}
+
+
+// ul li a{
+//     color: #d3d9df !important;
+// }
+// ul li a:hover{
+//     color: white !important;
+// }
+.btnOne {
+    padding: 5px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: #7cbd1e solid 1px;
+}
+
+.btnTwo {
+    color: white;
+    background-color: #7cbd1e;
+    padding: 6px;
+    width: 70px;
+    border: none;
+}
+
+.btnOne:hover {
+    cursor: pointer;
+    background-color: #7cbd1e;
+}
+
+.btnTwo:hover {
+    cursor: pointer;
+    background-color: #476122;
+}
+
+.dropdown {
+    &:hover {
+
+        .dropdown-menu {
+            display: block;
+            // a{
+            //     color: #000000 !important;
+            // }
+        }
+    }
+}
+
+// .dropdown-menu a:hover{
+//    color:#7cbd1e!important;
+
+
+//     }
+#bestServer {
+    background-image: url(/assets/img/hero_bg_1.jpg);
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.serverIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    color: white;
+
+}
+
+.affordable {
+    font-size: 70px;
+    color: white;
+}
+
+.monySeven {
+    color: white;
+    font-size: 20px;
+}
+
+.dowlanBtn {
+    border: none;
+    background-color: #7cbd1e;
+    color: white;
+    padding: 15px;
+    width: 170px;
+    font-size: 18px;
+}
+
+.dowlanBtn:hover {
+    cursor: pointer;
+    background-color: #476122;
+}
+
+.getBtn {
+    padding: 15px;
+    width: 170px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: #d3d9df solid 1px;
+
+}
+
+.getBtn:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+.dropdown-item {
+    &:hover {
+        color: red;
+
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-item {
+            .navbar-link {
+                &:hover {
+                    background-color: green !important
+                }
+            }
+        }
+
+    }
+}
